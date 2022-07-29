@@ -15,6 +15,7 @@ class HomeView extends StatelessWidget {
     final user = FirebaseAuth.instance.currentUser;
     return SafeArea(
       child: Scaffold(
+        ///Appbar added to news page
         appBar: AppBar(
           backgroundColor: Colors.black,
           title: Text(
