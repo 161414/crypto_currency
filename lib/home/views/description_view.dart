@@ -37,7 +37,10 @@ class DescriptionView extends StatelessWidget {
                     size: 15.0,
                   ),
                   TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        launchUrl(Uri.parse(
+                            'https://${state.results![index].source?.domain}'));
+                      },
                       child: Text(
                         /// fetch the Domain of corresponding news
                         '${state.results![index].domain}',
