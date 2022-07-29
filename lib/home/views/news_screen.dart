@@ -36,11 +36,7 @@ class NewsPage extends StatelessWidget {
             if (state is HomeLoadedState) {
               /// To refresh the page
               return
-                // RefreshIndicator(
-                //   onRefresh: () async {
-                //     context.read<HomeBloc>().add(LoadEvent());
-                //   },
-                //   child:
+                  child:
                   ListView.builder(
                       itemCount: state.results!.length,
                       itemBuilder: (context, index) {
