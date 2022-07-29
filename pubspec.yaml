@@ -12,14 +12,21 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.3
+#Package that helps to implement value based equality
   equatable: ^2.0.3
+#Google-backed application development
   firebase_auth: ^3.0.1
+# To connect multiple Firebase apps.
   firebase_core: ^1.4.0
+#To implement bloc
   flutter_bloc: ^7.0.1
+#Signing in with a Google account
   google_sign_in: ^5.0.5
   http: ^0.13.4
   url_launcher: ^6.1.5
+#used to top-level function format(date)
   timeago: ^3.2.2
+#To use google icons to the project
   font_awesome_flutter: ^10.1.0
 
 
