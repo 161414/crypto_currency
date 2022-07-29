@@ -10,9 +10,9 @@ class HomeRepository {
   /// Create a function to fetch  api data
   Future<HomeModel> fetchNews() async {
     final response = await get(Uri.parse(url));
-    print(response.body);
+    
     final cryptoNews = HomeFromJson(response.body);
-    print(cryptoNews);
+    
     return cryptoNews;
   }
 }
